@@ -7,7 +7,6 @@
   font-optical-sizing: auto;
 }
 nav{
-     width: 100%;
     max-width: 1600px;
     display:flex;
     justify-content: space-between;
@@ -46,14 +45,14 @@ nav .logo{
 .color-font{
         color: #30B868;
 }
-.banner-image img{
-    width:100%;
-    max-width: 1745px;
-}
+
+/* banner section */
+
 .banner {
-    background: url(../assets/hero-bg.png);
-     height: 674px;
-     max-width: 1600px;
+    background: url(../assets/hero-bg.png); 
+    max-height: 674px;
+    max-width: 1600px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -66,6 +65,7 @@ nav .logo{
   text-align: center;
   color: white;
   padding:115px;
+  
 }
 
 .banner-container h1{
@@ -77,6 +77,8 @@ nav .logo{
     line-height: 24px;
     margin-top: 16px;
     font-size: 18px;
+   
+
 }
 
 .btn1{
@@ -89,6 +91,7 @@ nav .logo{
     border-radius: 4px;
     margin-right: 16px;
     cursor: pointer;
+      margin-bottom: 40px;
 }
 
 .btn2{
@@ -100,6 +103,7 @@ nav .logo{
     font-weight: 600;
     color: #FFFFFF;
     cursor: pointer;
+     
 }
 
 .btn-banner{
@@ -128,23 +132,30 @@ nav .logo{
     color: #627382;
     margin-top: 16px;
 }
-.card{
-    margin: 0px 120px 49px;
-    
+
+
+.cards{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
-.card-container{
-    margin-top:44px;
+
+.card-container .card-box{
     display: flex;
     gap: 24px;
-    justify-content:space-between;
+    padding: 44px 120px 49px;
+   
 }
-.card-box{
-   max-width: 322px;
-   max-height: 300px;
-   padding: 24px;
+.card-box .card{
+    
+    margin-top: 16px;
+    max-width: 322px;
+    max-height:300px;
+    padding: 24px;
     text-align: center;
-    border: 1px solid white;
-    box-shadow:0.5px 0.5px #627382;
+    box-shadow:0.5px 0.5px 0.5px #627382;
+    
+  
 }
 .card img{
     background-color: #F95555;
@@ -155,13 +166,60 @@ nav .logo{
     
 }
 .card h3{
-   margin-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+
 }
 .card p{
-    line-height: 20px;
-    margin-bottom: 60.5px;
     font-size: 16px;
     color: #627382;
+    margin-bottom: 60px;
+}
+
+/* brain part */
+.brain {
+    width: 100%;
+    max-width: 1360px; 
+    margin: 0 auto;
+
+}
+.brain-container{
+    display: flex;
+    gap:60px;
+   padding: 120px ;
+}
+.brain-image{
+    max-width: 600px;
+    max-height: 600px;
+}
+.brain-card {
+    max-width: 700px;
+    max-height: 397px;
     
 
+}
+.brain-card h4{
+    margin-top: 101.5px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+.brain-card h1{
+     margin-bottom: 16px;
+     font-size: 48px;
+}
+.brain-card p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+
+}  
+.brain-card img{
+   max-width:  20px;
+   max-height: 20px;
+   margin-right: 6px;    
+}
+.brain-card .item{
+    display: flex;
+    margin-bottom:16px ;
 }

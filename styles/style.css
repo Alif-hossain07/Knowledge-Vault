@@ -179,11 +179,12 @@ nav .logo{
 /* brain part */
 .brain {
     width: 100%;
-    max-width: 1360px; 
+    max-width: 1600px;
     margin: 0 auto;
 
 }
 .brain-container{
+  
     display: flex;
     gap:60px;
    padding: 120px ;
@@ -222,4 +223,81 @@ nav .logo{
 .brain-card .item{
     display: flex;
     margin-bottom:16px ;
+}
+
+.early-access{
+    width:85%;
+    max-width:1600px;
+    margin: 0 auto;
+   
+}
+.early-container{
+        max-height: 385px;
+        max-width: 1360px;
+        padding: 100px;
+        text-align: center;
+        background-color: #F7F6F2;
+        
+}
+.early-container h1{
+    font-size: 40px; 
+    margin-top: 60px;    
+}
+.early-container p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+
+}
+.early-btn{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 194px;
+    height: 52px;
+    border: none;
+    font-size: 16px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #001931;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 120px 120px 164px;
+
+}
+.footer-container h5{
+    color: #FFFFFF;
+}
+.footer-container i{
+    margin-top: 16px;
+    color: #FFFFFF;
+    
+}
+.social-links a{
+    text-decoration: none;
+
+}
+
+.footer hr{
+ width: 70%;
+ margin: 0 auto;
+  
+}
+.footer p{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:16px ;
+    
+    
 }
